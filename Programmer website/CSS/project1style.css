@@ -1,0 +1,89 @@
+/*HTML form*/
+
+html {
+    background-color: #87909A;
+}
+
+span > p{
+    color: red;
+}
+
+form {
+    width: 450px;
+    height: 315px;
+    margin: 10px auto 0 auto;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(234, 240, 240, .6);
+    border: 5px groove black;
+}
+
+.input_group {
+    padding: 15px 15px 15px 15px;
+}
+
+.input_group > label{
+    float: left;
+    margin-left: 35px;
+}
+
+.input_group > input {
+    float: right;
+    margin-right: 35px;
+}
+
+#button {
+    border: 5px groove black;
+}
+
+.banner {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(234, 240, 240, .6);
+    border: 5px groove black;
+    margin: 50px auto 0 auto;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%
+}
+
+.banner h3 {
+    position: absolute;
+    margin: 170px 0 0 30px;
+    background-image: linear-gradient(to left, rgb(157, 130, 238), rgb(135, 155, 214));
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+/*PHP display*/
+
+.banner_display{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(234, 240, 240, .6);
+    border: 5px groove black;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+.banner_display h3 {
+    background-image: linear-gradient(to left, rgb(157, 130, 238), rgb(135, 155, 214));
+    background-clip: text;
+    color: transparent;
+}
+
+.form_results {
+    width: 250px;
+    height: 250px;
+    margin: 10px auto 0 auto;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(234, 240, 240, .6);
+    border: 5px groove black;
+}
+
+.form_results p {
+    color: black;
+}

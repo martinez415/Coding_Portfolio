@@ -1,0 +1,59 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(108, 122, 137);
+}
+
+.navstyle {
+    width: 115px;
+    height: 140px;
+    background-color: rgb(232, 236, 241);
+    border: 5px groove black;
+    padding: 5px 15px 5px 15px;
+}
+
+.navstyle ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.navstyle ul li{
+    display: block;
+}
+
+.navstyle p, a {
+    background-image: linear-gradient(to left, rgb(130, 155, 238), rgb(135, 214, 148));
+    background-clip: text;
+    color: transparent;
+}
+
+a:hover {
+    background-image: linear-gradient(to left, rgb(238, 206, 130), rgb(214, 135, 198));
+    background-clip: text;
+    color: transparent;    
+}
+
+
+body {
+    width: 100%;
+}
+
+.img_container {
+    width: 50%;
+    margin: 0 auto;
+    border: 5px groove black;
+    border-radius: 5px;
+}
+
+#tranquil {
+    width: 100%;
+}
+
+#welcome_text {
+    position: absolute;
+    top: 68%;
+    left: 55%;
+    color: rgb(232, 236, 241);
+}

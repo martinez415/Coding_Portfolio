@@ -1,0 +1,169 @@
+/*HTML form*/
+
+html {
+    background-color: #87909A;
+}
+
+span > p{
+    color: red;
+}
+
+#pizza_webform {
+    position: relative;
+    font-family: "Luckiest Guy", cursive;
+    width: 1000px;
+    height: 635px;
+    margin: 50px auto 0 auto;
+    background-color:white;
+    border: 5px groove black;
+    overflow: hidden;
+}
+
+#pizza_banner {
+    background-color: black;
+    width: 1000px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.col1 {
+    width: 500px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+}
+
+.col1 h1 {
+    float: left;
+    padding-left: 45px;
+    padding-top: 5%;
+    color: white;
+}
+
+.col1 a h1:hover {
+    color: red;
+}
+
+.col1 img {
+    width: 40%;
+    float: right;
+    padding-top: 5%;
+    padding-right: 30px;
+}
+
+.col2 {
+    width: 500px;
+    height: 150px;
+    float: right;
+    overflow: hidden;
+}
+
+.col2 ul {
+    list-style-type: none;
+    margin-top: 130px;
+    margin-left: 170px;
+    text-align: center;
+}
+
+.col2 ul li {
+    display: inline;
+    padding: 5px;
+}
+
+.col2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.col2 a:hover {
+    color: red;
+    background-color: blue;
+}
+
+
+#create_profile {
+    display: block;
+    text-align: center;
+    width: 350px;
+    height: 25px;
+    margin: 15px auto;
+    background-color: rgba(234, 240, 240, .6);
+    border: 5px groove black;
+}
+
+#profile_form {
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(234, 240, 240, .6);
+    border: 5px groove black;
+    display: none;
+}
+
+.input_group {
+    padding: 15px 15px 15px 15px;
+}
+
+.input_group > label{
+    float: left;
+    margin-left: 35px;
+}
+
+.input_group > input {
+    float: right;
+    margin-right: 35px;
+}
+
+.button_group {
+    font-family: "Luckiest Guy", cursive;
+    margin-left: 175px;
+    padding: 10px 10px 10px 10px;
+}
+
+.btn {
+    border: 5px groove black
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 1000px;
+    height: 70px;
+    background-color: black;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+#footer p {
+    color: white;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+
+/*PHP display*/
+
+.form_results {
+    position: relative;
+    width: 450px;
+    height: 275px;
+    margin: 10px auto 0 auto;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(234, 240, 240, .6);
+    border: 5px groove black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+.form_results p {
+    color: black;
+}

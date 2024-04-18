@@ -1,0 +1,23 @@
+form {
+    width: 425px;
+    height: 315px;
+    margin: 50px auto 0 auto;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(234, 240, 240, .6);
+    border: 5px groove black;
+}
+
+textarea {
+    width: 335px;
+    height: 130px;
+    background-color: rgb(243, 241, 239);
+}
+
+.userinfo {
+    padding: 5px 15px 5px 15px;
+}
+
+.buttons_group {
+    border: 5px groove black;
+}
+
